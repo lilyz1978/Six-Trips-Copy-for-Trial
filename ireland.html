@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- CSS to be relinked when all pages are added together-->
+<link href="style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!--font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Roboto&display=swap" rel="stylesheet">
+<body>
+    
+<!--Nav Bar to be linked when all pages are added together -->  
+  <div class="navBar">
+    <img src="./Six Trips Logo (1).svg"> <h2>Six Trips</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="contactform.html">Contact</a></li>
+        </ul>
+      </nav>
+  </div>
+
+<div class="container">
+    <h1>Ireland</h1>
+  <p> 'Céad Míle Fáilte' - (A Hundred Thousand Welcomes)<br><br><i>A traditional Irish welcome</i></br></br></p>
+</div>
+
+<!-- Carosel of images-->
+<div class="container">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./IMGS/Ireland_imgs/ireland_landscape.jpeg" class="d-block w-100" alt="Ireland Landscape">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Ireland</h2>
+          <p> Stunning Landscapes </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./IMGS/Ireland_imgs/Temple_bar.jpeg" class="d-block w-100" alt="Temple_bar">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>'In Dublin's Fair City..'' </h2>
+          <p> Visit the famous Temple Bar area</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./IMGS/Ireland_imgs/cork.jpeg" class="d-block w-100" alt="Cork">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Cork City </h2>
+          <p> Explore the vibrant 'Second City' </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./IMGS/Ireland_imgs/Giants_Causeway.jpeg" class="d-block w-100" alt="Giants_Causeway">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Venture to Northern Ireland</h2>
+          <p> The mysterious Giant's Causeway</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- Ordered list: 10 reasons visiting-->
+<div class="container">
+  <h2> Top 10 reasons to visit ... </h2>
+  <ol> 
+    <li>Jaw-dropping Natural Landscapes</li>
+    <li> The Traditional Music & Festivals</li>
+    <li>Regal Castles</li>
+    <li>Scenic Road Trips</li>
+    <li>Guinness & Whiskey tasting </li>
+    <li>Irish Hospitality</li>
+    <li>Lively Cities</li>
+    <li>Rich Heritage</li>
+    <li>Delicious Food</li>
+    <li>Traditional Sports</li>
+  </ol>
+</div>
+
+<!-- 3 feature images-->
+<div class="container px-4 py-5" id="custom-cards">
+    <h2>3 Must do's</h2>
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./IMGS/Ireland_imgs/Wild_atlantic_way.jpeg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"> Explore the Wild Atlantic Way</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./IMGS/Ireland_imgs/Cliffs_of_Moher.jpeg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Visit the Cliffs of Moher</h5>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./IMGS/Ireland_imgs/Guinness.jpeg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h5 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Trip to the Guinness Storehouse</h5>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- Key Facts section-->
+<div class="container">
+  <h2> Key facts before travelling </h2>
+  <ul>
+    <li> Official Name: Éire - Republic of Ireland</li>
+    <li> Population of Ireland: 4.8 Million</li>
+    <li> Languages spoken: English & Irish (Gaelige)</li>
+    <li> Capital City: Dublin </li>
+    <li> International dialling code for : +353</li>
+    <li> Form of Government: Constitutional Democracy </li>
+    <li> Currency: Euro </li>
+  </ul>
+</div>
+
+<div class="container">
+    <p>Edited by Caoimhe</p> 
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
